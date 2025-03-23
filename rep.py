@@ -9,11 +9,11 @@ from datetime import datetime, timedelta
 import threading
 import telebot
 
-bot_token = 'همودي_حط_توكن'
+bot_token = '7218686976:AAHyjNhko6_sClQIZNTWDAoT4JF1XipYgyU'
 bot = telebot.TeleBot(bot_token)
 user_data = {}
-allowed_users = ['7115002714']
-admin_id = '7115002714'
+allowed_users = ['815010872']
+admin_id = '815010872'
 subscription_data = {}
 
 keyboard = telebot.types.InlineKeyboardMarkup(row_width=2)
